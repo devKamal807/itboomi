@@ -1,0 +1,245 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+*{
+    font-family: Barlow Semi Condensed;
+}
+
+.container_card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
+    
+    
+}
+
+.card_one{
+    height: 220px;
+    width: 420px;
+    background-color:  hsl(263, 55%, 52%);
+    background-image: url('../assets/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position-x:calc(80%) ;
+    
+
+}
+.dani{
+    border-radius: 50%;
+}
+.jonathan{
+    border-radius: 50%;
+}
+.kaira{
+    border-radius: 50%;  
+}
+.jeanette{
+    border-radius: 50%;
+}
+.patrick{
+    border-radius: 50px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name h4{
+    color: white;
+    margin-left: 20px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.name p{
+    margin-left: 20px;
+    color: white;
+    opacity: calc(50%);
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para_top{
+    display: flex;
+    flex-direction: column;
+}
+.para_one p{
+    color: white;
+    
+}
+.para_two p{
+    color: white;
+    opacity: calc(50%);
+    font-size: 13px;
+}
+
+.card_two{
+    height: 220px;
+    width: 220px;
+    background-color: hsl(217, 19%, 35%);
+}
+.top2{
+    display: flex;
+    flex-direction: column;
+}
+.img__two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.name_two h4{
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.name_two p{
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    opacity: calc(50%);
+    margin-top: -10px;
+}
+
+.card_2_para_one p{
+    color: white;
+    font-size: 15px;
+}
+
+.card_2_para_two p{
+    color: white;
+    opacity: calc(50%);
+    font-size: 11px;
+}
+
+.card_three{
+    height: 390;
+    width: 220px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+.top3{
+    display: flex;
+    flex-direction: column;
+}
+.img_three{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.name_three{
+    margin-left: 70px;
+    margin-top: -40px;
+}
+.name_three h4{
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    font-weight: bold;
+}
+.name_three p{
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    opacity: calc(50%);
+    margin-top: -10px;
+}
+.card_3_para_one p{
+    font-weight: bold;
+    font-size: 15px;
+    color: hsl(217, 19%, 35%);
+
+}
+.card_3_para_Two p{
+    font-size: 11px;
+    color: hsl(217, 19%, 35%);
+    opacity: calc(70%);
+}
+
+.card_four{
+    height: 220px;
+    width: 220px;
+    margin-left: -1010px;
+    margin-top: 230px;
+}
+.top4{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.img_4{
+    display: flex;
+    flex-direction: row;
+}
+.name_four{
+    margin-left: 70px;
+    margin-top: -45px;
+}
+
+.name_four h4{
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    font-weight: bold;
+}
+.name_four p{
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    opacity: calc(50%);
+    margin-top: -10px;
+}
+.card_4_para_one p{
+    font-weight: bold;
+    font-size: 15px;
+    color: hsl(217, 19%, 35%);
+
+}
+.card_4_para_two p{
+    font-size: 12px;
+    color: hsl(217, 19%, 35%);
+    opacity: calc(70%);
+}
+.card_five{
+    height: 220px;
+    width: 420px;
+    background-color: hsl(219, 29%, 14%);
+   margin-top: -225px;
+   margin-left: -40px;
+
+}
+.top5{
+    display: flex;
+    flex-direction: column;
+}
+.img_five{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.name_five{
+    margin-left: 70px;
+    margin-top: -45px;
+}
+.name_five h4{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: bold;
+}
+.name_five p{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    opacity: calc(50%);
+    margin-top: -10px;
+}
+.card_5_para_one p{
+    font-weight: bold;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+
+}
+.card_5_para_two p{
+    font-size: 12px;
+    color:hsl(0, 0%, 100%);
+    opacity: calc(70%);
+}
